@@ -34,5 +34,12 @@ int main(){
     Barang elektronik;
     Barang nonElectronik;
 
+    elektronik.inputData();
+    elektronik.tampilSpek();
 
+    cout << endl;
+    cout << endl;
+
+    nonElectronik.inputData();
+    nonElectronik.tampilSpek();
 }
