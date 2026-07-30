@@ -30,3 +30,9 @@ class Barang{
 
 };
 
+int main(){
+    Barang elektronik;
+    Barang nonElectronik;
+
+
+}
