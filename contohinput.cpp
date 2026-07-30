@@ -8,5 +8,25 @@ class Barang{
         string kategori;
         string tahunProduksi;
 
+        void inputData(){
+            cout << "==================Input Data================="<< endl;
+            cout << "Masukkan Nama Barang : ";
+            cin >> nama;
+            cout << "Masukkan Jumlah Barang : ";
+            cin >> jumlah;
+            cout << "Masukkan Kategori Barang : ";
+            cin >> kategori;
+            cout << "Masukkan tanggal Produksi Barang : ";
+            cin >> tahunProduksi;
+        }
+        void tampilSpek(){
+            cout << "===================Tampil Data==============="<< endl;
+            cout << "Nama Barang : " << nama << endl;
+            cout << "Jumlah Barang : " << jumlah << endl;
+            cout << "Kategori Barang : " << kategori << endl;
+            cout << "Tanggal Produksi : " << tahunProduksi << endl;
+            cout << "==============================================" << endl;
+        }
+
 };
 
